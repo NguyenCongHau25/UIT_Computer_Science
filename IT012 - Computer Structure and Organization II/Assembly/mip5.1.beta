@@ -1,0 +1,103 @@
+    .data
+A:  .word 5, 6, 7, 8, 1, 2, 3, 9, 10, 4
+B:  .word 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+C:  .space 32     # Reserve space for 8 integers, each 4 bytes
+
+    .text
+    .globl main
+main:
+    # Print array A
+    li $t0, 0        # Initialize loop counter to 0
+    la $t1, A        # Load address of array A
+print_A_loop:
+    lw $a0, 0($t1)   # Load value of A[i] into $a0
+    li $v0, 1        # System call code for printing integer
+    syscall          # Print integer
+    
+    li $v0, 11       
+    li $a0, ' ' 
+    syscall
+    
+    addi $t0, $t0, 1 # Increment loop counter
+    addi $t1, $t1, 4 # Move to next element of A
+    blt $t0, 10, print_A_loop # Repeat if not finished printing A
+
+    # Print newline
+    li $v0, 11
+    li $a0, '\n'
+    syscall
+
+    # Print array B
+    li $t0, 0        # Initialize loop counter to 0
+    la $t1, B        # Load address of array B
+print_B_loop:
+    lw $a0, 0($t1)   # Load value of B[i] into $a0
+    li $v0, 1        # System call code for printing integer
+    syscall          # Print integer
+    
+    li $v0, 11       
+    li $a0, ' ' 
+    syscall
+    
+    addi $t0, $t0, 1 # Increment loop counter
+    addi $t1, $t1, 4 # Move to next element of B
+    blt $t0, 16, print_B_loop # Repeat if not finished printing B
+
+    # Print newline
+    li $v0, 11
+    li $a0, '\n'
+    syscall
+
+    # Calculate and print array C
+    li $t0, 0        # Initialize loop counter to 0
+    la $t2, B        # Load address of array B
+    la $t3, C        # Load address of array C
+calc_C_loop:
+    lw $t4, 0($t2)   # Load value of B[i] into $t4
+    lw $t5, 60($t2)  # Load value of B[16 - i - 1] into $t5 (60 = 16 * 4)
+    add $t6, $t4, $t5  # Calculate sum B[i] + B[16 - i - 1]
+    sw $t6, 0($t3)   # Store the sum in C[i]
+    li $v0, 1        # System call code for printing integer
+    move $a0, $t6    # Move the sum to $a0 for printing
+    syscall          # Print sum
+    
+    li $v0, 11       
+    li $a0, ' ' 
+    syscall
+    
+    addi $t0, $t0, 1 # Increment loop counter
+    addi $t2, $t2, 4 # Move to next element of B
+    addi $t3, $t3, 4 # Move to next element of C
+    blt $t0, 8, calc_C_loop # Repeat if not finished calculating C
+
+    # Print newline
+    li $v0, 11
+    li $a0, '\n'
+    syscall
+
+    # Handle user input
+    # $s0 contains m, $s1 contains n
+    li $v0, 5        # System call code for reading integer
+    syscall          # Read integer m
+    move $s0, $v0    # Save m in $s0
+    li $v0, 5        # System call code for reading integer
+    syscall          # Read integer n
+    move $s1, $v0    # Save n in $s1
+
+    # Switch-case for output
+    switch_output:
+        move $t0, $s0    # Copy m to $t0 for comparison
+        li $v0, 4        # System call code for printing integer
+        jal print_newline   # Jump to print_newline
+        j print_newline    # Jump to print_newline
+        j exit    # Exit program
+
+    print_newline:
+    	li $v0, 11
+    	li $a0, '\n'
+    	syscall
+        jr $ra
+
+    exit:
+        li $v0, 10
+        syscall
