@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/CONG HAU/NMLT/mang 2 chieu/output/kiem tra ma tran don vi'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z10NhapMaTranPA100_iRi, symObjAddr: 0x0, symBinAddr: 0x100003BF4, symSize: 0xC8 }
+  - { offsetInCU: 0x444E, offset: 0x444E, size: 0x8, addend: 0x0, symName: __ZNSt3__19boolalphaB7v160006ERNS_8ios_baseE, symObjAddr: 0x318, symBinAddr: 0x100003F0C, symSize: 0x2C }
+  - { offsetInCU: 0x6815, offset: 0x6815, size: 0x8, addend: 0x0, symName: __Z10NhapMaTranPA100_iRi, symObjAddr: 0x0, symBinAddr: 0x100003BF4, symSize: 0xC8 }
+  - { offsetInCU: 0x6883, offset: 0x6883, size: 0x8, addend: 0x0, symName: __Z13isMaTranDonViPA100_iRi, symObjAddr: 0xC8, symBinAddr: 0x100003CBC, symSize: 0x150 }
+  - { offsetInCU: 0x68F5, offset: 0x68F5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x218, symBinAddr: 0x100003E0C, symSize: 0xC0 }
+  - { offsetInCU: 0x69D8, offset: 0x69D8, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB7v160006EPFRNS_8ios_baseES5_E, symObjAddr: 0x2D8, symBinAddr: 0x100003ECC, symSize: 0x40 }
+  - { offsetInCU: 0x6A0A, offset: 0x6A0A, size: 0x8, addend: 0x0, symName: __ZNSt3__18ios_base4setfB7v160006Ej, symObjAddr: 0x344, symBinAddr: 0x100003F38, symSize: 0x34 }
+...

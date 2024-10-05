@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/CONG HAU/NMLT/chuoi ky tu/output/dem chu cai khong thuoc tv'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z12countLettersPc, symObjAddr: 0x0, symBinAddr: 0x100003AC4, symSize: 0x154 }
+  - { offsetInCU: 0x4960, offset: 0x4960, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x280, symBinAddr: 0x100003D44, symSize: 0x58 }
+  - { offsetInCU: 0x49A0, offset: 0x49A0, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB7v160006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x364, symBinAddr: 0x100003E28, symSize: 0x2C }
+  - { offsetInCU: 0x720F, offset: 0x720F, size: 0x8, addend: 0x0, symName: __Z12countLettersPc, symObjAddr: 0x0, symBinAddr: 0x100003AC4, symSize: 0x154 }
+  - { offsetInCU: 0x7265, offset: 0x7265, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x154, symBinAddr: 0x100003C18, symSize: 0x98 }
+  - { offsetInCU: 0x73BE, offset: 0x73BE, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE7getlineB7v160006EPcl, symObjAddr: 0x1EC, symBinAddr: 0x100003CB0, symSize: 0x68 }
+  - { offsetInCU: 0x7400, offset: 0x7400, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB7v160006EPFRS3_S4_E, symObjAddr: 0x254, symBinAddr: 0x100003D18, symSize: 0x2C }
+  - { offsetInCU: 0x7432, offset: 0x7432, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB7v160006Ec, symObjAddr: 0x2D8, symBinAddr: 0x100003D9C, symSize: 0x8C }
+  - { offsetInCU: 0x749E, offset: 0x749E, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB7v160006Ec, symObjAddr: 0x390, symBinAddr: 0x100003E54, symSize: 0x38 }
+...

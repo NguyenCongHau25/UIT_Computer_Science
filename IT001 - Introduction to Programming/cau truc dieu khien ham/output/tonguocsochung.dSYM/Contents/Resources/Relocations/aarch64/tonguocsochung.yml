@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/CONG HAU/NMLT/cautrucdieukhien ham.cpp/output/tonguocsochung'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z5inputRi, symObjAddr: 0x0, symBinAddr: 0x100003DEC, symSize: 0x34 }
+  - { offsetInCU: 0x2C66, offset: 0x2C66, size: 0x8, addend: 0x0, symName: __Z5inputRi, symObjAddr: 0x0, symBinAddr: 0x100003DEC, symSize: 0x34 }
+  - { offsetInCU: 0x2C92, offset: 0x2C92, size: 0x8, addend: 0x0, symName: __Z5inputv, symObjAddr: 0x34, symBinAddr: 0x100003E20, symSize: 0x2C }
+  - { offsetInCU: 0x2CBE, offset: 0x2CBE, size: 0x8, addend: 0x0, symName: __Z12TongUocChungii, symObjAddr: 0x60, symBinAddr: 0x100003E4C, symSize: 0xE8 }
+  - { offsetInCU: 0x2D30, offset: 0x2D30, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x148, symBinAddr: 0x100003F34, symSize: 0x54 }
+...

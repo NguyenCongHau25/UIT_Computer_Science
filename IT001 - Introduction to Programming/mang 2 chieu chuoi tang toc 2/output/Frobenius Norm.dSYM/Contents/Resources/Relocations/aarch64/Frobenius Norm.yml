@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/CONG HAU/NMLT/mang 2 chieu chuoi tang toc 2/output/Frobenius Norm'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z12intputmatrixPA50_iRiS1_, symObjAddr: 0x0, symBinAddr: 0x100003BAC, symSize: 0xD4 }
+  - { offsetInCU: 0x45FD, offset: 0x45FD, size: 0x8, addend: 0x0, symName: __ZNSt3__110scientificB7v160006ERNS_8ios_baseE, symObjAddr: 0x250, symBinAddr: 0x100003DFC, symSize: 0x30 }
+  - { offsetInCU: 0x48E7, offset: 0x48E7, size: 0x8, addend: 0x0, symName: __Z3powB7v160006IiiENSt3__19enable_ifIXaasr3std13is_arithmeticIT_EE5valuesr3std13is_arithmeticIT0_EE5valueENS0_9__promoteIS2_S3_vEEE4type4typeES2_S3_, symObjAddr: 0x1CC, symBinAddr: 0x100003D78, symSize: 0x44 }
+  - { offsetInCU: 0x6A46, offset: 0x6A46, size: 0x8, addend: 0x0, symName: __Z12intputmatrixPA50_iRiS1_, symObjAddr: 0x0, symBinAddr: 0x100003BAC, symSize: 0xD4 }
+  - { offsetInCU: 0x6AC2, offset: 0x6AC2, size: 0x8, addend: 0x0, symName: __Z9FrobeniusPA50_iii, symObjAddr: 0xD4, symBinAddr: 0x100003C80, symSize: 0xF8 }
+  - { offsetInCU: 0x6BF9, offset: 0x6BF9, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB7v160006EPFRNS_8ios_baseES5_E, symObjAddr: 0x210, symBinAddr: 0x100003DBC, symSize: 0x40 }
+  - { offsetInCU: 0x6C2B, offset: 0x6C2B, size: 0x8, addend: 0x0, symName: __Z4sqrtB7v160006f, symObjAddr: 0x280, symBinAddr: 0x100003E2C, symSize: 0x18 }
+  - { offsetInCU: 0x6C59, offset: 0x6C59, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x298, symBinAddr: 0x100003E44, symSize: 0x98 }
+  - { offsetInCU: 0x6C9D, offset: 0x6C9D, size: 0x8, addend: 0x0, symName: __ZNSt3__18ios_base4setfB7v160006Ejj, symObjAddr: 0x330, symBinAddr: 0x100003EDC, symSize: 0x5C }
+  - { offsetInCU: 0x6CF0, offset: 0x6CF0, size: 0x8, addend: 0x0, symName: __ZNSt3__18ios_base6unsetfB7v160006Ej, symObjAddr: 0x38C, symBinAddr: 0x100003F38, symSize: 0x28 }
+...

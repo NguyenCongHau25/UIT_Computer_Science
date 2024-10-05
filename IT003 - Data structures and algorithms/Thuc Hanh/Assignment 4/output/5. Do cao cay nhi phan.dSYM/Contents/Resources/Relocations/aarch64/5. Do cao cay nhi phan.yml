@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/CONG HAU/DSA/TH/BT 70% 2/output/5. Do cao cay nhi phan'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C78, symSize: 0x9C }
+  - { offsetInCU: 0x2DCB, offset: 0x2DCB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C78, symSize: 0x9C }
+  - { offsetInCU: 0x2EC3, offset: 0x2EC3, size: 0x8, addend: 0x0, symName: __ZN8Solution6insertEP4Nodei, symObjAddr: 0x9C, symBinAddr: 0x100003D14, symSize: 0x104 }
+  - { offsetInCU: 0x2F1F, offset: 0x2F1F, size: 0x8, addend: 0x0, symName: __ZN8Solution6heightEP4Node, symObjAddr: 0x1A0, symBinAddr: 0x100003E18, symSize: 0xAC }
+  - { offsetInCU: 0x2F7B, offset: 0x2F7B, size: 0x8, addend: 0x0, symName: __ZN4NodeC1Ei, symObjAddr: 0x24C, symBinAddr: 0x100003EC4, symSize: 0x34 }
+  - { offsetInCU: 0x2FB1, offset: 0x2FB1, size: 0x8, addend: 0x0, symName: __ZN4NodeC2Ei, symObjAddr: 0x280, symBinAddr: 0x100003EF8, symSize: 0x28 }
+...

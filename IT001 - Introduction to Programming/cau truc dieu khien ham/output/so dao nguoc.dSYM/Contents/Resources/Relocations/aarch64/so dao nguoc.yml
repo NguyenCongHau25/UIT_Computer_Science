@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/CONG HAU/NMLT/cautrucdieukhien ham.cpp/output/so dao nguoc'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z7reversei, symObjAddr: 0x0, symBinAddr: 0x100003ED8, symSize: 0x6C }
+  - { offsetInCU: 0x2C66, offset: 0x2C66, size: 0x8, addend: 0x0, symName: __Z7reversei, symObjAddr: 0x0, symBinAddr: 0x100003ED8, symSize: 0x6C }
+  - { offsetInCU: 0x2CAE, offset: 0x2CAE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6C, symBinAddr: 0x100003F44, symSize: 0x44 }
+...

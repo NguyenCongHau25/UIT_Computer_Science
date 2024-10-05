@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/CONG HAU/NMLT/cautrucdieukhien ham.cpp/output/tinh sn va lay do chinh xac 2 chu so'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z9calculated, symObjAddr: 0x0, symBinAddr: 0x100003DAC, symSize: 0x80 }
+  - { offsetInCU: 0x3832, offset: 0x3832, size: 0x8, addend: 0x0, symName: __ZNSt3__1lsB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_RKNS_8__iom_t5E, symObjAddr: 0xE8, symBinAddr: 0x100003E94, symSize: 0x40 }
+  - { offsetInCU: 0x387E, offset: 0x387E, size: 0x8, addend: 0x0, symName: __ZNSt3__112setprecisionB7v160006Ei, symObjAddr: 0x128, symBinAddr: 0x100003ED4, symSize: 0x2C }
+  - { offsetInCU: 0x6894, offset: 0x6894, size: 0x8, addend: 0x0, symName: __Z9calculated, symObjAddr: 0x0, symBinAddr: 0x100003DAC, symSize: 0x80 }
+  - { offsetInCU: 0x68EA, offset: 0x68EA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x80, symBinAddr: 0x100003E2C, symSize: 0x68 }
+  - { offsetInCU: 0x6912, offset: 0x6912, size: 0x8, addend: 0x0, symName: __ZNSt3__18__iom_t5C1B7v160006Ei, symObjAddr: 0x154, symBinAddr: 0x100003F00, symSize: 0x34 }
+  - { offsetInCU: 0x6948, offset: 0x6948, size: 0x8, addend: 0x0, symName: __ZNSt3__18__iom_t5C2B7v160006Ei, symObjAddr: 0x188, symBinAddr: 0x100003F34, symSize: 0x20 }
+  - { offsetInCU: 0x697E, offset: 0x697E, size: 0x8, addend: 0x0, symName: __ZNSt3__18ios_base9precisionB7v160006El, symObjAddr: 0x1A8, symBinAddr: 0x100003F54, symSize: 0x2C }
+...

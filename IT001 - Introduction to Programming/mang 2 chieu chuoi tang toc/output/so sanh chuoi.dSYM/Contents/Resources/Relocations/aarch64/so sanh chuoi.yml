@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/CONG HAU/NMLT/mang 2 chieu chuoi tang toc/output/so sanh chuoi'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z24SoSanhBangNhauTheoChuCaiPcS_, symObjAddr: 0x0, symBinAddr: 0x10000399C, symSize: 0x2F8 }
+  - { offsetInCU: 0x4960, offset: 0x4960, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB7v160006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x498, symBinAddr: 0x100003E34, symSize: 0x2C }
+  - { offsetInCU: 0x71CF, offset: 0x71CF, size: 0x8, addend: 0x0, symName: __Z24SoSanhBangNhauTheoChuCaiPcS_, symObjAddr: 0x0, symBinAddr: 0x10000399C, symSize: 0x2F8 }
+  - { offsetInCU: 0x7225, offset: 0x7225, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2F8, symBinAddr: 0x100003C94, symSize: 0xAC }
+  - { offsetInCU: 0x738D, offset: 0x738D, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE7getlineB7v160006EPcl, symObjAddr: 0x3A4, symBinAddr: 0x100003D40, symSize: 0x68 }
+  - { offsetInCU: 0x73CF, offset: 0x73CF, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB7v160006Ec, symObjAddr: 0x40C, symBinAddr: 0x100003DA8, symSize: 0x8C }
+  - { offsetInCU: 0x743B, offset: 0x743B, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB7v160006Ec, symObjAddr: 0x4C4, symBinAddr: 0x100003E60, symSize: 0x38 }
+...

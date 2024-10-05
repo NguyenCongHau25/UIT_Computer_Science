@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/CONG HAU/NMLT/mang 2 chieu chuoi tang toc 2/output/Tinh dinh thuc'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z10NhapMaTranPA100_iRi, symObjAddr: 0x0, symBinAddr: 0x100003B54, symSize: 0xC8 }
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: __Z3powB7v160006IiiENSt3__19enable_ifIXaasr3std13is_arithmeticIT_EE5valuesr3std13is_arithmeticIT0_EE5valueENS0_9__promoteIS2_S3_vEEE4type4typeES2_S3_, symObjAddr: 0x328, symBinAddr: 0x100003E7C, symSize: 0x44 }
+  - { offsetInCU: 0x2E95, offset: 0x2E95, size: 0x8, addend: 0x0, symName: __Z10NhapMaTranPA100_iRi, symObjAddr: 0x0, symBinAddr: 0x100003B54, symSize: 0xC8 }
+  - { offsetInCU: 0x2F03, offset: 0x2F03, size: 0x8, addend: 0x0, symName: __Z9matranconPA100_iS0_ii, symObjAddr: 0xC8, symBinAddr: 0x100003C1C, symSize: 0xFC }
+  - { offsetInCU: 0x2FA9, offset: 0x2FA9, size: 0x8, addend: 0x0, symName: __Z12TinhDinhThucPA100_ii, symObjAddr: 0x1C4, symBinAddr: 0x100003D18, symSize: 0x164 }
+  - { offsetInCU: 0x301C, offset: 0x301C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x36C, symBinAddr: 0x100003EC0, symSize: 0xA0 }
+...

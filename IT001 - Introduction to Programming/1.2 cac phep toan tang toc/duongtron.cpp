@@ -1,0 +1,1 @@
+setprecision(15)<< 2*M_PI*x<< endl<< setprecision(15)<<M_PI*x*x
